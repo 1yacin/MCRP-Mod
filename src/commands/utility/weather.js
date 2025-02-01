@@ -6,7 +6,7 @@ const { getJson } = require("@helpers/HttpUtils");
 const API_KEY = process.env.WEATHERSTACK_KEY;
 
 
- * @type {import("@structures/Command")}
+  @type {import("@structures/Command")}
 
 module.exports = {
   name: "weather",
