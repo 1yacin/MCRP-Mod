@@ -1,12 +1,13 @@
+/**
 const { EmbedBuilder, ApplicationCommandOptionType } = require("discord.js");
 const { MESSAGES, EMBED_COLORS } = require("@root/config.js");
 const { getJson } = require("@helpers/HttpUtils");
 
 const API_KEY = process.env.WEATHERSTACK_KEY;
 
-/**
+
  * @type {import("@structures/Command")}
- */
+
 module.exports = {
   name: "weather",
   description: "get weather information",
@@ -75,3 +76,4 @@ async function weather(place) {
 
   return { embeds: [embed] };
 }
+ */
