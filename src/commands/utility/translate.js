@@ -76,7 +76,7 @@ async function getTranslation(author, input, outputCode) {
 
   const embed = new EmbedBuilder()
     .setAuthor({
-      name: `${author.username} says`,
+      name: `${author.username}'s Translating`,
       iconURL: author.avatarURL(),
     })
     .setColor(EMBED_COLORS.BOT_EMBED)
