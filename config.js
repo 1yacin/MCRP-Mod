@@ -37,13 +37,13 @@ module.exports = {
 
   DASHBOARD: {
     enabled: false, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
+    baseURL: "https://mcrp-mod.onrender.com", // base url
+    failureURL: "https://mcrp-mod.onrender.com", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
   ECONOMY: {
-    ENABLED: true,
+    ENABLED: false,
     CURRENCY: "₪",
     DAILY_COINS: 100, // coins to be received by daily command
     MIN_BEG_AMOUNT: 100, // minimum coins to be received when beg command is used
