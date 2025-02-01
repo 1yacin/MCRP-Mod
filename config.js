@@ -16,7 +16,7 @@ module.exports = {
     TRANSPARENT: "#36393F",
     SUCCESS: "#00A56A",
     ERROR: "#D61A3C",
-    WARNING: "#F7E919",
+    WARNING: "#FFFF00",
   },
   CACHE_SIZE: {
     GUILDS: 1,
@@ -71,8 +71,8 @@ module.exports = {
   GIVEAWAYS: {
     ENABLED: true,
     REACTION: "🎁",
-    START_EMBED: "#FF468A",
-    END_EMBED: "#FF468A",
+    START_EMBED: "#FFFF00",
+    END_EMBED: "#FFFF00",
   },
 
   IMAGE: {
