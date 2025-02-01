@@ -12,10 +12,10 @@ module.exports = {
     TEST_GUILD_ID: "914277797449568306", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
-    BOT_EMBED: "#068ADD",
-    TRANSPARENT: "#36393F",
-    SUCCESS: "#00A56A",
-    ERROR: "#D61A3C",
+    BOT_EMBED: "#FFFF00",
+    TRANSPARENT: "#FFFF00",
+    SUCCESS: "#FFFF00",
+    ERROR: "#FFFF00",
     WARNING: "#FFFF00",
   },
   CACHE_SIZE: {
@@ -31,8 +31,8 @@ module.exports = {
 
   AUTOMOD: {
     ENABLED: true,
-    LOG_EMBED: "#36393F",
-    DM_EMBED: "#36393F",
+    LOG_EMBED: "#FFFF00",
+    DM_EMBED: "#FFFF00",
   },
 
   DASHBOARD: {
@@ -87,16 +87,16 @@ module.exports = {
   MODERATION: {
     ENABLED: true,
     EMBED_COLORS: {
-      TIMEOUT: "#102027",
-      UNTIMEOUT: "#4B636E",
-      KICK: "#FF7961",
-      SOFTBAN: "#AF4448",
-      BAN: "#D32F2F",
-      UNBAN: "#00C853",
-      VMUTE: "#102027",
-      VUNMUTE: "#4B636E",
-      DEAFEN: "#102027",
-      UNDEAFEN: "#4B636E",
+      TIMEOUT: "#FFFF00",
+      UNTIMEOUT: "#FFFF00",
+      KICK: "#FFFF00",
+      SOFTBAN: "#FFFF00",
+      BAN: "#FFFF00",
+      UNBAN: "#FFFF00",
+      VMUTE: "#FFFF00",
+      VUNMUTE: "#FFFF00",
+      DEAFEN: "#FFFF00",
+      UNDEAFEN: "#FFFF00",
       DISCONNECT: "RANDOM",
       MOVE: "RANDOM",
     },
@@ -121,14 +121,14 @@ module.exports = {
       UP_VOTE: "⬆️",
       DOWN_VOTE: "⬇️",
     },
-    DEFAULT_EMBED: "#4F545C",
-    APPROVED_EMBED: "#43B581",
-    DENIED_EMBED: "#F04747",
+    DEFAULT_EMBED: "#FFFF00",
+    APPROVED_EMBED: "#FFFF00",
+    DENIED_EMBED: "#FFFF00",
   },
 
   TICKET: {
     ENABLED: true,
-    CREATE_EMBED: "#068ADD",
-    CLOSE_EMBED: "#068ADD",
+    CREATE_EMBED: "#FFFF00",
+    CLOSE_EMBED: "#FFFF00",
   },
 };
