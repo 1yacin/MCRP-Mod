@@ -18,7 +18,7 @@ module.exports = {
       await message.author.send(response);
       return message.safeReply("Check your DM for my information! :envelope_with_arrow:");
     } catch (ex) {
-      return message.safeReply("I cannot send you my information! Is your DM open?");
+      return message.safeReply("I cannot send you my information! Make sure your DM is open.");
     }
   },
 };
