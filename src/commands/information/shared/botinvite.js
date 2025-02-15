@@ -3,17 +3,17 @@ const { EMBED_COLORS, SUPPORT_SERVER, DASHBOARD } = require("@root/config");
 
 module.exports = (client) => {
   const embed = new EmbedBuilder()
-    .setAuthor({ name: "Invite" })
+    .setAuthor({ name: "MCRP Management Bot - Invite" })
     .setColor(EMBED_COLORS.BOT_EMBED)
     .setThumbnail(client.user.displayAvatarURL())
-    .setDescription("Hey there! Thanks for considering to invite me\nUse the button below to navigate where you want");
+    .setDescription("Hey there! Thanks for considering inviting our bot.\nUnfortunatelly, we don't currently allow adding the bot to external servers.");
 
   // Buttons
-  let components = [];
-  components.push(new ButtonBuilder().setLabel("Invite Link").setURL(client.getInvite()).setStyle(ButtonStyle.Link));
+//  let components = [];
+//  components.push(new ButtonBuilder().setLabel("Invite Link").setURL(client.getInvite()).setStyle(ButtonStyle.Link));
 
   if (SUPPORT_SERVER) {
-    components.push(new ButtonBuilder().setLabel("Support Server").setURL(SUPPORT_SERVER).setStyle(ButtonStyle.Link));
+    components.push(new ButtonBuilder().setLabel("MCRP Support").setURL(SUPPORT_SERVER).setStyle(ButtonStyle.Link));
   }
 
   if (DASHBOARD.enabled) {
